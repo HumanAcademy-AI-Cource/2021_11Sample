@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="okuru_node" pkg="chat_sample" type="okuru_node.py" output="screen" required="true" />
+  <node name="uketoru_node" pkg="chat_sample" type="uketoru_node.py" output="screen" required="true" />
+</launch>
+<!-- name: プログラム（ノード）に好きな名前を付けたい場合に指定します。 -->
+<!-- pkg: ROSのパッケージ名を指定します。 -->
+<!-- type: プログラム（ノード）のファイル名を指定します。 -->
+<!-- output: screenを指定するとノード内からの出力を表示する -->
+<!-- required: trueを指定するとこのノードを終了したときに他のノードも終了する -->

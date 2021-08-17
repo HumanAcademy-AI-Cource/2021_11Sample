@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="okuru_node" pkg="chat_sample" type="okuru_node.py" output="screen" required="true" />
+  <node name="uketoru_node" pkg="chat_sample" type="uketoru_node.py" output="screen" required="true" />
+</launch>
